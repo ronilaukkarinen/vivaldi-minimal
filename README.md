@@ -48,8 +48,8 @@ If you are interested in my Midnight theme colors, they are:
 
 **Background:** #191c2a<br>
 **Foreground:** #8489b3<br>
-**Highlight:** 4c70f0<br>
-**Accent:** 191c2a
+**Highlight:** #4c70f0<br>
+**Accent:** #191c2a
 
 ## Development
 
