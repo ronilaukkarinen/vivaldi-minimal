@@ -95,6 +95,12 @@ html #app {
     display: none !important;
   }
 
+  // Remove speed dial related things
+  .startpage .SpeedDialView-SearchField,
+  .startpage .dials-wrapper {
+    display: none !important;
+  }
+
   // Equal width for tabs like in Safari
   .tab-strip {
     display: flex;
