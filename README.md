@@ -27,7 +27,7 @@ This Vivaldi theme (custom CSS) makes the browser more minimal and macOS Safari-
 - No tab bar visible if there's only one tab (like in Safari)
 - Remove speed dial related things like dials and extra search input to have _real blank_ new tab page instea of that about:blank bug
 
-![Screenshot](https://i.imgur.com/EqWHbwW.png "Screenshot with only 1 tab")
+![Screenshot](https://i.imgur.com/8FWwGPD.png "Screenshot with only 1 tab")
 With multiple tabs open.
 
 ![Screenshot](https://i.imgur.com/WEs5l8F.png "Screenshot with multiple tabs")
@@ -46,10 +46,10 @@ If you want even more cleaner look, disable left side panel by pressing <kbd>F4<
 
 If you are interested in my Midnight theme colors, they are:
 
-**Background:** #191c2a<br>
+**Background:** #0b152b<br>
 **Foreground:** #8489b3<br>
-**Highlight:** 4c70f0<br>
-**Accent:** 191c2a
+**Highlight:** #6272a4<br>
+**Accent:** #2a314e
 
 ## Development
 
