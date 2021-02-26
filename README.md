@@ -27,7 +27,7 @@ This Vivaldi theme (custom CSS) makes the browser more minimal and macOS Safari-
 - No tab bar visible if there's only one tab (like in Safari)
 - Remove speed dial related things like dials and extra search input to have _real blank_ new tab page instea of that about:blank bug
 
-![Screenshot](https://i.imgur.com/EqWHbwW.png "Screenshot with only 1 tab")
+![Screenshot](https://i.imgur.com/8FWwGPD.png "Screenshot with only 1 tab")
 With multiple tabs open.
 
 ![Screenshot](https://i.imgur.com/WEs5l8F.png "Screenshot with multiple tabs")
