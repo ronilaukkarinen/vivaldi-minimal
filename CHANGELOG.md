@@ -1,3 +1,7 @@
+### 1.0.7: 2021-02-26
+
+* Remove space and  border before toggle extensions button
+
 ### 1.0.6: 2021-02-26
 
 * More subtle extensions toggle
