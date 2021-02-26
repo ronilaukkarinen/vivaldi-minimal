@@ -1,3 +1,7 @@
+### 1.0.6: 2021-02-26
+
+* More subtle extensions toggle
+
 ### 1.0.5: 2021-02-26
 
 * Fix centering titles
