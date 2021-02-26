@@ -70,11 +70,6 @@ html #app {
     display: none;
   }
 
-  // Hide 1Password button
-  .button-toolbar.aeblfdkhhhdcdjpifhhbdiojplfjncoa.ExtensionIcon.extensionId {
-    display: none;
-  }
-
   // Hide search input (we can use the url bar)
   .UrlBar-SearchField.iconmenu-container.SearchField {
     display: none;
@@ -104,6 +99,11 @@ html #app {
   // Hide small annoyance on some color themes
   .color-behind-tabs-off.address-top .toolbar-mainbar::after {
     display: none !important;
+  }
+
+  // More subtle toggle extension button
+  button[title="Toggle extensions"] {
+    opacity: .5;
   }
 
   // Equal width for tabs like in Safari
