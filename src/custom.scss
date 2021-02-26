@@ -97,8 +97,13 @@ html #app {
   }
 
   // Hide small annoyance on some color themes
+  .color-behind-tabs-off .toolbar .profile-popup + .toolbar-extensions .button-toolbar:not(.button-narrow):first-of-type::before,
   .color-behind-tabs-off.address-top .toolbar-mainbar::after {
     display: none !important;
+  }
+
+  .toolbar .profile-popup + .toolbar-extensions .button-toolbar:not(.button-narrow):first-of-type {
+    margin-left: 0;
   }
 
   // More subtle toggle extension button
