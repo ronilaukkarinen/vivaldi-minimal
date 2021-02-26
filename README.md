@@ -46,10 +46,10 @@ If you want even more cleaner look, disable left side panel by pressing <kbd>F4<
 
 If you are interested in my Midnight theme colors, they are:
 
-**Background:** #191c2a<br>
+**Background:** #0b152b<br>
 **Foreground:** #8489b3<br>
-**Highlight:** #4c70f0<br>
-**Accent:** #191c2a
+**Highlight:** #6272a4<br>
+**Accent:** #2a314e
 
 ## Development
 
