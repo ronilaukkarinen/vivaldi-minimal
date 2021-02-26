@@ -106,15 +106,26 @@ html #app {
       width: auto;
     }
 
+    // This is the element that defines actual tab width
     > span {
       display: flex;
       flex: 1;
       justify-content: flex-start;
-      max-width: 33vw;
+
+      // If there's more than one tabs, use max-width 50vw
+      max-width: 50vw;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
       width: 100%;
+
+      // If there's 3 or more tabs, use less max-width
+      &:nth-child(3),
+      &:nth-child(4),
+      &:nth-child(5),
+      &:nth-child(7) &:nth-child(8) &:nth-child(9) &:nth-child(10) {
+        max-width: 33vw;
+      }
 
       > div {
         flex: 1;

@@ -94,7 +94,7 @@
     "selector-max-class": 4,
     "selector-max-combinators": null,
     "selector-max-compound-selectors": null,
-    "selector-max-pseudo-class": 2,
+    "selector-max-pseudo-class": null,
     "selector-max-universal": 1,
     "selector-no-vendor-prefix": true,
     "selector-no-qualifying-type": null,
