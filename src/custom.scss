@@ -90,6 +90,11 @@ html #app {
     display: none;
   }
 
+  // Center tab title
+  .tab-position .tab .title {
+    justify-content: center;
+  }
+
   // Hide tab bar if there's only one tab (like on Safari)
   .tab-strip > span:only-of-type {
     display: none !important;
