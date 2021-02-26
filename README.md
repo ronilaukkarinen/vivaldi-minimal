@@ -1,4 +1,6 @@
-# Minimal Vivaldi layout
+[![GitHub release](https://img.shields.io/github/tag/ronilaukkarinen/vivaldi-minimal.svg?style=flat-square)](https://github.com/ronilaukkarinen/vivaldi-minimal/releases)
+
+## Minimal Vivaldi layout
 
 These custom CSS styles make Vivaldi browser more minimal and macOS Safari-like.
 
