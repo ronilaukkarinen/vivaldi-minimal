@@ -1,0 +1,121 @@
+// CSS Variables
+:root,
+#browser,
+#browser header,
+#browser .bookmark-bar,
+#browser .manager-editor,
+#browser .vivaldi-settings,
+#browser .toolbar,
+#browser #header,
+#browser #switch,
+#browser #tabs-tabbar-container {
+  // Heiht of the main toolbar that contains address bar and buttons
+  --height-main-toolbar: 33px;
+
+  // Override useless focus border variables
+  --colorBorder: transparent;
+  --colorBgIntenser: transparent;
+}
+
+// Nest to force specific styles without having to use !important
+html #app {
+  // Move main toolbar to top above tabs
+  .UrlBar.toolbar.toolbar-mainbar.toolbar-large {
+    position: absolute;
+    width: 100%;
+    top: 0;
+  }
+
+  // Make possible to move url bar outside main
+  #main {
+    position: static;
+  }
+
+  // Move tab bar below address bar
+  #tabs-tabbar-container {
+    margin-top: var(--height-main-toolbar);
+
+    // Making sure omnibox can be top of the tab bar
+    position: relative;
+    z-index: 0;
+
+    // Needing automatic height to "hide" tab bar if one tab only
+    // Needs important override because the tab element.style has inline height: 30px;
+    height: 100% !important;
+  }
+
+  // Move main toolbar content after macOS control buttons
+  .toolbar.toolbar-droptarget.toolbar-mainbar.toolbar-large {
+    margin-left: 75px;
+  }
+
+  // Ensure there's no extra space where tabs start
+  #tabs-container,
+  .mac #tabs-container:not(.none).top {
+    padding-left: 0;
+  }
+
+  // Ensure there's no extra space above tabs
+  #tabs-tabbar-container.top {
+    padding-top: 0;
+  }
+
+  // Hide new tab button (I'm used to keyboard shortcuts)
+  .toolbar .button-toolbar.newtab {
+    display: none;
+  }
+
+  // Hide profile button (I don't need it)
+  .button-toolbar.profile-popup {
+    display: none;
+  }
+
+  // Hide 1Password button
+  .button-toolbar.aeblfdkhhhdcdjpifhhbdiojplfjncoa.ExtensionIcon.extensionId {
+    display: none;
+  }
+
+  // Hide search input (we can use the url bar)
+  .UrlBar-SearchField.iconmenu-container.SearchField {
+    display: none;
+  }
+
+  // Hide sync and trash buttons (why would we need to clean up tabs)
+  .toolbar.sync-and-trash-container {
+    display: none;
+  }
+
+  // Hide favicons
+  .tab-strip .tab-header .favicon {
+    display: none;
+  }
+
+  // Hide tab bar if there's only one tab (like on Safari)
+  .tab-strip > span:only-of-type {
+    display: none !important;
+  }
+
+  // Equal width for tabs like in Safari
+  .tab-strip {
+    display: flex;
+
+    .tab-position {
+      position: relative;
+      height: auto;
+      width: auto;
+      transform: none;
+    }
+
+    > span {
+      flex: 1;
+      width: 100%;
+      justify-content: flex-start;
+      display: flex;
+
+      > div {
+        flex: 1;
+        width: 100%;
+      }
+    }
+  }
+}
