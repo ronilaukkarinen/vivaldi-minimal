@@ -90,11 +90,6 @@ html #app {
     display: none;
   }
 
-  // Center tab title
-  .tab-position .tab .title {
-    justify-content: center;
-  }
-
   // Hide tab bar if there's only one tab (like on Safari)
   .tab-strip > span:only-of-type {
     display: none !important;
@@ -129,6 +124,13 @@ html #app {
       text-overflow: ellipsis;
       white-space: nowrap;
       width: 100%;
+
+      // Centered tab title
+      .tab-position,
+      .tab-position .tab .title {
+        justify-content: center;
+        text-align: center;
+      }
 
       // If there's 3 or more tabs, use less max-width
       &:nth-child(3),
