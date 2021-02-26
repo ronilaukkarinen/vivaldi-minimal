@@ -101,6 +101,11 @@ html #app {
     display: none !important;
   }
 
+  // Hide small annoyance on some color themes
+  .color-behind-tabs-off.address-top .toolbar-mainbar::after {
+    display: none !important;
+  }
+
   // Equal width for tabs like in Safari
   .tab-strip {
     display: flex;

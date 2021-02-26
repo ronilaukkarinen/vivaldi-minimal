@@ -1,3 +1,8 @@
+### 1.0.5: 2021-02-26
+
+* Fix centering titles
+* Polishing
+
 ### 1.0.4: 2021-02-26
 
 * Centered tab titles
