@@ -40,7 +40,8 @@ With only one tab open.
 
 If you want even more cleaner look, disable left side panel by pressing <kbd>F4</kbd> and change **Appearance > Status Bar** to _Status Info Overlay_.
 
-If you are interested in my Midnight theme colors, they are:<br>
+If you are interested in my Midnight theme colors, they are:
+
 **Background:** #191c2a<br>
 **Foreground:** #8489b3<br>
 **Highlight:** 4c70f0<br>
