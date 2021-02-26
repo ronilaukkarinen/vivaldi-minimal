@@ -6,6 +6,12 @@
 
 This Vivaldi theme (custom CSS) makes the browser more minimal and macOS Safari-like.
 
+
+## Requirements
+
+- macOS (for now)
+- Vivaldi ≥ 3.6
+
 ## Features
 
 - Supports all color themes
@@ -24,11 +30,6 @@ With multiple tabs open.
 
 ![Screenshot](https://i.imgur.com/WEs5l8F.png "Screenshot with multiple tabs")
 With only one tab open.
-
-## Requirements
-
-- macOS (for now)
-- Vivaldi ≥ 3.6
 
 ## Installation
 
