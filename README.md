@@ -1,6 +1,10 @@
-# Minimal Vivaldi layout
+## Minimal Vivaldi layout
 
-These custom CSS styles make Vivaldi browser more minimal and macOS Safari-like.
+[![GitHub release](https://img.shields.io/github/tag/ronilaukkarinen/vivaldi-minimal.svg?style=flat-square)](https://github.com/ronilaukkarinen/vivaldi-minimal/releases) [![Vivaldi](https://img.shields.io/badge/tested%20with%20vivaldi-3.6-green.svg?style=flat-square)](https://github.com/ronilaukkarinen/vivaldi-minimal) 
+[![GitHub contributors](https://img.shields.io/github/contributors/ronilaukkarinen/vivaldi-minimal.svg?style=flat-square)](https://github.com/ronilaukkarinen/weed/graphs/contributors) 
+[![Twitter Follow](https://img.shields.io/twitter/follow/rolle.svg?style=social&label=Follow)](https://twitter.com/rolle)
+
+This Vivaldi theme (custom CSS) makes the browser more minimal and macOS Safari-like.
 
 ## Features
 
@@ -16,10 +20,10 @@ These custom CSS styles make Vivaldi browser more minimal and macOS Safari-like.
 - No tab bar visible if there's only one tab (like in Safari)
 
 ![Screenshot](https://i.imgur.com/EqWHbwW.png "Screenshot with only 1 tab")
-With only one tab open.
+With multiple tabs open.
 
 ![Screenshot](https://i.imgur.com/WEs5l8F.png "Screenshot with multiple tabs")
-With multiple tabs open.
+With only one tab open.
 
 ## Requirements
 
@@ -37,7 +41,8 @@ With multiple tabs open.
 
 If you want even more cleaner look, disable left side panel by pressing <kbd>F4</kbd> and change **Appearance > Status Bar** to _Status Info Overlay_.
 
-If you are interested in my Midnight theme colors, they are:<br>
+If you are interested in my Midnight theme colors, they are:
+
 **Background:** #191c2a<br>
 **Foreground:** #8489b3<br>
 **Highlight:** 4c70f0<br>
