@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/ronilaukkarinen/vivaldi-minimal#readme",
   "devDependencies": {
-    "scss": "^0.2.4"
+    "scss": "^0.2.4",
+    "stylelint": "^13.11.0",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0"
   }
 }

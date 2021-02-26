@@ -23,6 +23,7 @@ With multiple tabs open.
 
 ## Requirements
 
+- macOS (for now)
 - Vivaldi ≥ 3.6
 
 ## Installation
