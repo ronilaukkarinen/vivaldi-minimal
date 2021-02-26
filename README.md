@@ -20,10 +20,10 @@ These custom CSS styles make Vivaldi browser more minimal and macOS Safari-like.
 - No tab bar visible if there's only one tab (like in Safari)
 
 ![Screenshot](https://i.imgur.com/EqWHbwW.png "Screenshot with only 1 tab")
-With only one tab open.
+With multiple tabs open.
 
 ![Screenshot](https://i.imgur.com/WEs5l8F.png "Screenshot with multiple tabs")
-With multiple tabs open.
+With only one tab open.
 
 ## Requirements
 
