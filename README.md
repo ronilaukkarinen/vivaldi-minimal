@@ -1,4 +1,6 @@
-[![GitHub release](https://img.shields.io/github/tag/ronilaukkarinen/vivaldi-minimal.svg?style=flat-square)](https://github.com/ronilaukkarinen/vivaldi-minimal/releases)
+[![GitHub release](https://img.shields.io/github/tag/ronilaukkarinen/vivaldi-minimal.svg?style=flat-square)](https://github.com/ronilaukkarinen/vivaldi-minimal/releases) [![Vivaldi](https://img.shields.io/badge/tested%20with%20vivaldi-3.6-green.svg?style=flat-square)](https://github.com/ronilaukkarinen/vivaldi-minimal) 
+[![GitHub contributors](https://img.shields.io/github/contributors/ronilaukkarinen/vivaldi-minimal.svg?style=flat-square)](https://github.com/ronilaukkarinen/weed/graphs/contributors) 
+[![Twitter Follow](https://img.shields.io/twitter/follow/rolle.svg?style=social&label=Follow)](https://twitter.com/rolle)
 
 ## Minimal Vivaldi layout
 
