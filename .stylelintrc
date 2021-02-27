@@ -2,7 +2,6 @@
   "defaultSeverity": "warning",
   "plugins": [
     "stylelint-declaration-use-variable",
-    "stylelint-scss",
 		"stylelint-order"
   ],
   "extends": [

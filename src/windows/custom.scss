@@ -1,0 +1,19 @@
+@import '../mac/custom';
+
+// Move browser controls to left like on macOS
+#browser.win.win10 .window-buttongroup {
+  left: 0;
+  right: auto;
+}
+
+#header button.vivaldi {
+  left: auto;
+  right: 100px;
+  top: -3px;
+}
+
+#browser.win.win10 .window-buttongroup button {
+  position: relative;
+  top: -3px;
+  width: 25px;
+}

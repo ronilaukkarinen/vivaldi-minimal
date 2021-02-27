@@ -1,3 +1,7 @@
+### 1.0.8: 2021-02-27
+
+* Add Windows 10 version
+
 ### 1.0.7: 2021-02-26
 
 * Remove space and  border before toggle extensions button
