@@ -7,13 +7,16 @@
 }
 
 #header button.vivaldi {
-  left: auto;
-  right: 90px;
-  top: -5px;
+  left: 177px;
+  top: -4px;
 }
 
 #browser.win.win10 .window-buttongroup button {
   position: relative;
   top: -3px;
   width: 25px;
+}
+
+.UrlBar .UrlBar-AddressField {
+  margin-left: 30px;
 }
