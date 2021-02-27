@@ -2,8 +2,21 @@
 
 // Move browser controls to left like on macOS
 #browser.win.win10 .window-buttongroup {
+  display: flex;
   left: 0;
   right: auto;
+
+  .window-minimize {
+    order: 2;
+  }
+
+  .window-maximize {
+    order: 2;
+  }
+
+  .window-close {
+    order: 1;
+  }
 }
 
 #header button.vivaldi {
