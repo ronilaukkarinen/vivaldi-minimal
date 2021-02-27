@@ -1,3 +1,7 @@
+### 1.0.9: 2021-02-27
+
+* Move Windows menu button to more accessible location
+
 ### 1.0.8: 2021-02-27
 
 * Add Windows 10 version
