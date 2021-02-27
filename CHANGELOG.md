@@ -1,3 +1,7 @@
+### 1.1.2: 2021-02-27
+
+* Windows 10 and MacOS: Fix issue large amount of tabs overflowing the window.
+
 ### 1.1.1: 2021-02-27
 
 * Windows 10: Fix button height

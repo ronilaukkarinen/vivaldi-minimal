@@ -114,6 +114,7 @@ html #app {
   // Equal width for tabs like in Safari
   .tab-strip {
     display: flex;
+    width: 100vw;
 
     .tab-position {
       height: auto;
