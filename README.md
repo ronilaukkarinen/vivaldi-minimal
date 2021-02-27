@@ -39,7 +39,7 @@ With only one tab open.
 2. Open [vivaldi://experiments](vivaldi://experiments)
 3. Enable "Allow for using CSS modifications"
 4. Open Appearance section in settings
-5. If you are using macOS, choose dist/mac folder under this repository, if Windows, choose dist/windows. **Please note:** For Windows you need to disable home, first and last buttons from the toolbar for menu button to fit!
+5. If you are using macOS, choose dist/mac folder under this repository, if Windows, choose dist/windows. **Please note:** For Windows you need to disable home, first and last buttons from the toolbar for menu button to fit! Also on Windows there's limited space in the title bar so a tool like [AltDrag](https://stefansundin.github.io/altdrag/) is useful here.
 6. Restart Vivaldi
 
 If you want even more cleaner look, disable left side panel by pressing <kbd>F4</kbd> and change **Appearance > Status Bar** to _Status Info Overlay_.
