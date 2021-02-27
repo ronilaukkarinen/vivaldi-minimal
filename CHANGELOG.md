@@ -1,6 +1,7 @@
 ### 1.1.1: 2021-02-27
 
 * Windows 10: Fix button height
+
 ### 1.1.0: 2021-02-27
 
 * Windows 10: Change window button order like on macOS
