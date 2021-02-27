@@ -1,3 +1,7 @@
+### 1.1.0: 2021-02-27
+
+* Windows 10: Change window button order like on macOS
+
 ### 1.0.9: 2021-02-27
 
 * Move Windows menu button to more accessible location
